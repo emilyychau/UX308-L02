@@ -1,5 +1,6 @@
 // Take a variable with distance in kilometres as input and output the same distance converted to miles
 
-let inputKM = prompt("Enter a distance in kilometers?")
-var convMiles = 
-console.log(convMiles);
+let km = 10;
+let mi = km*0.621371; 
+
+console.log(`${km} kilometers is ${mi} miles`);
