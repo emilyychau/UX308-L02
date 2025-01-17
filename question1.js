@@ -2,5 +2,5 @@
 
 let km = 10;
 let mi = km*0.621371; 
-
-console.log(`${km} kilometers is ${mi} miles`);
+mi = Math.round(mi * 100) / 100;
+console.log(`${km} kilometers is about ${mi} miles`);
