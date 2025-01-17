@@ -2,9 +2,9 @@
 // Start with a variable that contains the diameter of the end of the circle
 // Add another variable that references the height in meters
 
-let radius = 10;
+let diameter = 20;
 let height = 2;
 
-let Vcylinder = Math.PI * (radius ** 2) * height;
+let Vcylinder = Math.PI * ((diameter/2) ** 2) * height;
+Vcylinder = Math.round(Vcylinder * 100) / 100;
 console.log(`The volume of the cylinder is ${Vcylinder} m³`);
-
