@@ -1,6 +1,6 @@
 // Take a variable with a numeric grade and output the corresponding letter grade
 
-let percentage = -04;
+let percentage = 64;
 
 if (percentage >= 101){console.log("Your letter grade input is invalid")}
 else if (percentage >= 90 && percentage <= 100){console.log("Your letter grade is an A+")}

@@ -7,4 +7,4 @@ let height = 2;
 
 let Vcylinder = Math.PI * ((diameter/2) ** 2) * height;
 Vcylinder = Math.round(Vcylinder * 100) / 100;
-console.log(`The volume of the cylinder is ${Vcylinder} m³`);
+console.log(`The volume of a cylinder with a diameter of ${diameter}m and a height of ${height}m is ${Vcylinder}m³`);
